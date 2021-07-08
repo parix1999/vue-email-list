@@ -14,11 +14,20 @@
         <ul>
             <li
             v-if="emails.length < 10">
-                loading 
+               loading
             </li>
             <li v-for="email in emails" v-else>
                 {{email}}
-            </li>
+            </li> 
+            <!-- 2
+            
+            <!-- <li v-for="email in emails" v-if="emails.length < 10">
+                {{email}}
+            </li> -->
+        
+        
+        
+        
         </ul>
         
 
